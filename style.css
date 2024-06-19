@@ -2,6 +2,10 @@ body {
     background-color: black;
     color: white;
     font-family: Verdana;
+    margin-left: 140px; 
+    font-size: 14px; 
+    padding: 0px 10px;
+    margin-right: 140px;
   }
 
   .sidebar{
@@ -26,9 +30,6 @@ body {
     color: lightblue;
   }
   .main {
-    margin-left: 140px; 
-    font-size: 14px; 
-    padding: 0px 10px;
-    margin-right: 140px;
+   
   }
   
