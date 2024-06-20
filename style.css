@@ -16,6 +16,8 @@ body {
     background-color: darkslategrey;
     overflow-x: hidden;
     padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 500px;
   }
 
   .sidebar a {
