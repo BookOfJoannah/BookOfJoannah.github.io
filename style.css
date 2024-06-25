@@ -34,10 +34,15 @@ body {
     color: lightblue;
   }
   .main {
-    margin-left: 140px; 
+    margin: auto;
     font-size: 14px; 
     padding: 0px 10px;
-    margin-right: 500px;
+  
     color:white;
+  }
+
+  p {
+    text-align: center;
+    border: 1px solid black;
   }
   
