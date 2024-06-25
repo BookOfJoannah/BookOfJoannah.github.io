@@ -23,7 +23,7 @@ body {
   }
 
   .sidebar a {
-    padding: 6px 8px 6px 10x;
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: white;
@@ -41,8 +41,15 @@ body {
     color:white;
   }
 
+.title {
+  text-align:center;
+  width: 800px;
+  
+}
+
   p {
     text-align: center;
-    border: 1px solid black;
+    width: 800px;
+
   }
   
