@@ -39,6 +39,15 @@ body {
     padding: 0px 10px;
   
     color:white;
+
+    p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    }
   }
 
 .title {
