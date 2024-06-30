@@ -13,6 +13,7 @@ body {
   .sidebar{
     width:160px;
     position: fixed;
+    top: 30px;
     z-index: 1;
     top: 0;
     background-color: darkslategrey;
@@ -25,7 +26,7 @@ body {
   .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 24px;
     color: white;
     display: block;
   }
@@ -34,7 +35,7 @@ body {
     color: lightblue;
   }
   .main {
-    margin: auto;
+    margin: 0 auto;
     font-size: 14px; 
     padding: 0px 10px;
   
@@ -43,7 +44,7 @@ body {
     p {
     display: block;
     padding: 10px;
-    margin:auto;
+    margin:0 auto;
     max-width: 600px
     }
   }
