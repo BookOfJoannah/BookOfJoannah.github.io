@@ -41,13 +41,21 @@ body {
   
     color:white;
 
+    display: block;
+    padding: 10px;
+    margin:0 auto;
+    max-width: 600px;
     p {
     display: block;
     padding: 10px;
     margin:0 auto;
-    max-width: 600px
+    max-width: 600px;
+    font-size: 10px;
     }
-
+    .Important{
+      font-size: 20px;
+      color: greenyellow;
+    }
    
   }
 
