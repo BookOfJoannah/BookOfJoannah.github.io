@@ -13,7 +13,7 @@ body {
   .sidebar{
     width:160px;
     position: fixed;
-    top: 30px;
+    top: 60px;
     z-index: 1;
     top: 0;
     background-color: darkslategrey;
@@ -51,6 +51,12 @@ body {
     margin:0 auto;
     max-width: 600px;
     font-size: 14px;
+    }
+    a {
+      color:gold
+    }
+    a:hover {
+      color:lightyellow
     }
     .Important{
       font-size: 20px;
