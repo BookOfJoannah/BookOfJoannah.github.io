@@ -85,7 +85,7 @@ body {
 
   img {
     text-align: center;
-    width: 600;
+    max-width: 600px;
   }
 
 .title {
