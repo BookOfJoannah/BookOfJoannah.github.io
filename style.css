@@ -39,12 +39,15 @@ body {
     display: block;
   }
 
+  hr {
+    
+  }
   .sidebar a:hover {
     color: lightblue;
   }
   .main {
     background-image: url('Resources/bodyscript.png');
-    background-size: 800px;
+    background-size: 700px;
     margin: 0 auto;
     font-size: 14px; 
     padding-left: 50px;
@@ -55,7 +58,7 @@ body {
     color:black;
 
     display: block;
-    padding: 10px;
+    
     margin:0 auto;
     max-width: 600px;
     p {
