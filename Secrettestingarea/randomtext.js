@@ -1,6 +1,6 @@
 var randomtext = angular.module('shortyism_generator', []);
 
-app.controller('cant_control_shorty', function($scope) {
+randomtext.controller('cant_control_shorty', function($scope) {
     // Default value before a shortyism is called.
     $scope.shortyism = texts_A[select];
     $scope.moar_shorty = function() {
