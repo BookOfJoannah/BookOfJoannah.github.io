@@ -11,7 +11,7 @@ var app = angular.module('shortyism_generator', []);
 
 app.controller('cant_control_shorty', function($scope) {
     // Default value before a shortyism is called.
-    $scope.shortyism = "Click Below for Pearls of Techy Wisdom";
+    $scope.shortyism = shortyisms_A[select];
     $scope.moar_shorty = function() {
       // if the array of shortyisms is emtpy, refill it.
       if (shortyisms_A.length === 0) {
