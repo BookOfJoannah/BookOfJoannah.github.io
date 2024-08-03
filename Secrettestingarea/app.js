@@ -11,6 +11,7 @@ var app = angular.module('shortyism_generator', []);
 
 app.controller('cant_control_shorty', function($scope) {
     // Default value before a shortyism is called.
+    select = Math.floor(Math.random()*shortyisms_A.length);
     $scope.shortyism = shortyisms_A[select];
     $scope.moar_shorty = function() {
       // if the array of shortyisms is emtpy, refill it.
@@ -18,7 +19,7 @@ app.controller('cant_control_shorty', function($scope) {
         shortyisms_A = shortyisms_B;
         shortyisms_B = [];
       }
-      select = Math.floor(Math.random()*shortyisms_A.length);
+      
       $scope.shortyism = shortyisms_A[select];
       // store the now-used shortyism in another array, and remove it so it
       // doesn't repeat
