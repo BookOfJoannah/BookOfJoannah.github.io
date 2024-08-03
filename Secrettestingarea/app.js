@@ -2,7 +2,7 @@ var randomtext = angular.module('shortyism_generator', []);
 
 randomtext.controller('cant_control_shorty', function($scope) {
     // Default value before a shortyism is called.
-    $scope.shortyism = texts_A[select];
+    $scope.shortyism = "Will this be a default value?";
     $scope.moar_shorty = function() {
       // if the array of shortyisms is emtpy, refill it.
       if (texts_A.length === 0) {
