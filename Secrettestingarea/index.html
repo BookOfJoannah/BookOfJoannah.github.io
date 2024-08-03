@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" ng-randomtext="randomtextgenerator">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Þe Book of Joannah</title>
-<link rel="icon" type="image/x-icon" href="/Icons/bookofjoannah.png">
-<link href="/style.css" rel="stylesheet" type="text/css" media="all">
-</head>
+<html ng-app="shortyism_generator">
 
-<body>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="styles.css" media="screen" charset="utf-8">
+    <title>Sh*t Shorty Says</title>
+  </head>
+
+  <body>
     <!-- I can't make a shorty controller! That's ridiculous. He can't be controlled. -->
     <div ng-controller="cant_control_shorty as ctrl" class="container">
 
-      <div class="headline"><h1>PleaseIjustwantittowork</h1></div>
+      <div class="headline"><h1>Lorem Shortyum</h1></div>
+
+      <div class="shorty_pic"><img src="images/shorty_transparent.png" alt="Shorty" /></div>
 
       <div ng-bind="shortyism" class="show_shortyism"></div>
 
@@ -22,10 +24,11 @@
 
     <br/>
     
+    <a href="https://github.com/johndshea/shortyism-generator"><span class="github"><img src="images/GitHub-Mark-64px.png" alt="Github" /></span></a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="shortyisms.js" charset="utf-8"></script>
     <script src="app.js" charset="utf-8"></script>
-    <script src="randomtext.js" charset="utf-8"></script>
 
   </body>
 
