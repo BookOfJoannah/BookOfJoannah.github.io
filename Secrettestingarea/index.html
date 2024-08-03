@@ -9,11 +9,27 @@
 </head>
 
 <body>
-    
-    <div ng-controller="control_text as ctrl" class="container">
+    <!-- I can't make a shorty controller! That's ridiculous. He can't be controlled. -->
+    <div ng-controller="cant_control_shorty as ctrl" class="container">
 
-        <div ng-bind="randomquip" class="testtext"></div>
+      <div class="headline"><h1>Lorem Shortyum</h1></div>
+
+      <div class="shorty_pic"><img src="images/shorty_transparent.png" alt="Shorty" /></div>
+
+      <div ng-bind="shortyism" class="show_shortyism"></div>
+
+      <div ng-click="moar_shorty()" class="button">MOAR Shorty!</div>
 
     </div>
 
-</body>
+    <br/>
+    
+    <a href="https://github.com/johndshea/shortyism-generator"><span class="github"><img src="images/GitHub-Mark-64px.png" alt="Github" /></span></a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="shortyisms.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+  </body>
+
+</html>
