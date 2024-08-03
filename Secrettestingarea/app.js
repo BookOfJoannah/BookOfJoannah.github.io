@@ -19,7 +19,7 @@ app.controller('cant_control_shorty', function($scope) {
         shortyisms_A = shortyisms_B;
         shortyisms_B = [];
       }
-      
+      select = Math.floor(Math.random()*shortyisms_A.length);
       $scope.shortyism = shortyisms_A[select];
       // store the now-used shortyism in another array, and remove it so it
       // doesn't repeat
