@@ -7,7 +7,7 @@
 // repetition of "shortyisms" while still allowing the button to be pushed
 // indefinitely.
 
-var app = angular.module('shortyism_generator', []);
+var app = angular.module('randomquipgenerator', []);
 
 app.controller('cant_control_shorty', function($scope) {
     // Default value before a shortyism is called.
