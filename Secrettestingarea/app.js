@@ -14,16 +14,16 @@ app.controller('cant_control_shorty', function($scope) {
     select = Math.floor(Math.random()*shortyisms_A.length);
     $scope.shortyism = shortyisms_A[select];
     $scope.moar_shorty = function() {
-      // if the array of shortyisms is emtpy, refill it.
-      if (shortyisms_A.length === 0) {
-        shortyisms_A = shortyisms_B;
-        shortyisms_B = [];
-      }
-      select = Math.floor(Math.random()*shortyisms_A.length);
-      $scope.shortyism = shortyisms_A[select];
-      // store the now-used shortyism in another array, and remove it so it
-      // doesn't repeat
-      shortyisms_B.push(shortyisms_A[select]);
-      shortyisms_A.splice(select, 1);
+    //   //  if the array of shortyisms is emtpy, refill it.
+    //   if (shortyisms_A.length === 0) {
+    //     shortyisms_A = shortyisms_B;
+    //     shortyisms_B = [];
+    //   }
+    //   select = Math.floor(Math.random()*shortyisms_A.length);
+    //   $scope.shortyism = shortyisms_A[select];
+    //   // store the now-used shortyism in another array, and remove it so it
+    //   // doesn't repeat
+    //   shortyisms_B.push(shortyisms_A[select]);
+    //   shortyisms_A.splice(select, 1);
     };
 });
