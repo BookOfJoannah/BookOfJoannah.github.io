@@ -1,4 +1,4 @@
-var app = angular.module('shortyism_generator', []);
+var randomtext = angular.module('shortyism_generator', []);
 
 app.controller('cant_control_shorty', function($scope) {
     // Default value before a shortyism is called.
