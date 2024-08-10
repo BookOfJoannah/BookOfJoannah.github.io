@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html ng-app="randomquipgenerator">
+<html ng-app="randomquipgenerator" lang="en">
 
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" media="screen">
-    <link rel="stylesheet" href="style.css" media="screen">
+    
     <title>Secret test: Random quip generator</title>
   </head>
 
   <body>
     <!-- I can't make a shorty controller! That's ridiculous. He can't be controlled. -->
-    <div ng-controller="cant_control_shorty as ctrl" class="container">
+    <div ng-controller="control_randomness as ctrl" class="container">
 
       <div class="headline"><h1>Teast</h1></div>
 
       
 
-      <div ng-bind="shortyism" class="quipformat"></div>
+      <div ng-bind="randomquip" class="quipformat"></div>
 
      <!-- <div ng-click="moar_shorty()" class="button">Stuff change</div> -->
 
@@ -26,7 +24,6 @@
     
    
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
-    <script src="shortyisms.js" charset="utf-8"></script>
     <script src="app.js" charset="utf-8"></script>
 
   </body>

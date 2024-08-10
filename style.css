@@ -9,6 +9,11 @@ body {
     
   }
 
+  .quipformat{
+    text-align: justify;
+    color: white;
+  }
+
   .newbody{
     margin-right:auto;
 

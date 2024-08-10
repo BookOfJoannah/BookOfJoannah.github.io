@@ -7,13 +7,49 @@
 // repetition of "shortyisms" while still allowing the button to be pushed
 // indefinitely.
 
+var random_quip_list = [
+
+    "100% free range!",
+    "Good morning mortals!",
+    "Rock and stone!",
+    "Shamelessly ripping off Minecraft!",
+    "Nerdy sites must die!",
+    "Þank you to you are your mom!",
+    "Mucho es slay",
+    "You can go outside and scream in þe generic masculine all you want!",
+    "Monkeyfluencers are þe future",
+    "Calculators are great for cheating!",
+    "Trauma Mia",
+    "I have a hyperfixation now and it's everyone else's problem!",
+    "Go jump off a cliff or someþing,",
+    "Have you heard about our lord and savior, me?",
+    "I put on a dress and all of a sudden you start rizzing me up?",
+    "Incredibly violent!",
+    "Turns your kids Lebanese!",
+    "Stand aside, I know Integral Calculus™!",
+    "100% Human-made idiocy",
+    "Check out pluralistic.net by Cory Doctorow!",
+    "Check out xkcd.com by Randall Munroe!",
+    "Check out ncase.me by Nicky Case!",
+    "Slowly learning HTML, CSS and Javascript!",
+    "Being normal is a capital offense onto yourself!",
+    "Þe playground of þe semi-controlled id!",
+    "May contain Crystal Spiders!",
+    "Synesþesia!",
+    "Sorry for driving at escape velocity, space oddity was playing!",
+    "Uranium? More like Uraniyummy!",
+    "Inside jokes known only to me!",
+    "Messing wiþ demonic powers to make title texts!"
+
+];  
+
 var app = angular.module('randomquipgenerator', []);
 
-app.controller('cant_control_shorty', function($scope) {
+app.controller('control_randomness', function($scope) {
     // Default value before a shortyism is called.
-    select = Math.floor(Math.random()*shortyisms_A.length);
-    $scope.shortyism = shortyisms_A[select];
-    $scope.moar_shorty = function() {
+    select = Math.floor(Math.random()*random_quip_list.length);
+    $scope.randomquip = random_quip_list[select];
+    //$scope.moar_shorty = function() {
     //   //  if the array of shortyisms is emtpy, refill it.
     //   if (shortyisms_A.length === 0) {
     //     shortyisms_A = shortyisms_B;
@@ -25,5 +61,5 @@ app.controller('cant_control_shorty', function($scope) {
     //   // doesn't repeat
     //   shortyisms_B.push(shortyisms_A[select]);
     //   shortyisms_A.splice(select, 1);
-    };
+    //};
 });

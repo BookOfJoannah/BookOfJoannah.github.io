@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="randomtextgenerator">
+<html lang="en" ng-app="randomquipgenerator">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +12,12 @@
 
     <h1>Þe Book of Joannah</h1>
     
-    
+    <div ng-controller="control_randomness as ctrl" class="container">
 
+        <div ng-bind="randomquip" class="quipformat"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="Secrettestingarea/app.js" charset="utf-8"></script>
 
     <h2>By Jonah Joannah Jay</h2>
     
