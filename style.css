@@ -12,6 +12,9 @@ body {
   .quipformat{
     text-align: justify;
     color: white;
+    position: fixed;
+    top: 300;
+    left: 300;
   }
 
   .newbody{

@@ -39,7 +39,8 @@ var random_quip_list = [
     "Sorry for driving at escape velocity, space oddity was playing!",
     "Uranium? More like Uraniyummy!",
     "Inside jokes known only to me!",
-    "Messing wiþ demonic powers to make title texts!"
+    "Messing wiþ demonic powers to make title texts!",
+    "Shamelessly stolen from: https://shitshortysays.netlify.app/"
 
 ];  
 
