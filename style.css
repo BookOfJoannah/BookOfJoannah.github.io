@@ -113,13 +113,13 @@ body {
 
 .bookheader {
   text-align:center;
-  width: 800px;
-  height: 1000px;
+  width: 850px;
+  height: 800px;
   padding-top:50px;
   padding-left: 50px;
   position: relative;
   top: 20px;
-  left: 400px;
+  left: 600px;
   background-image: url('Resources/bookopen.png');
   background-size: 875px;
 
