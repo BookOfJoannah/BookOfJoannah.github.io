@@ -113,6 +113,8 @@ body {
 
 .bookheader {
   text-align:center;
+  width: 875px;
+  height: 600;
   position: absolute;
   top: 20px;
   left: 300px;
