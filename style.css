@@ -67,6 +67,9 @@ body {
     color: lightblue;
   }
   .main {
+    position: relative;
+    top: 600px;
+    left: 600px;
     background-image: url('Resources/bodyscript.png');
     background-size: 700px;
     margin: 0 auto;
@@ -117,7 +120,7 @@ body {
   height: 450px;
   padding-top:50px;
   padding-left: 50px;
-  position: relative;
+  position: fixed;
   top: 0px;
   left: 600px;
   background-image: url('Resources/bookopen.png');
