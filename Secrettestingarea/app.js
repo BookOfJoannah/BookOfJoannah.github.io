@@ -40,7 +40,8 @@ var random_quip_list = [
     "Uranium? More like Uraniyummy!",
     "Inside jokes known only to me!",
     "Messing wiþ demonic powers to make title texts!",
-    "Shamelessly stolen from: https://shitshortysays.netlify.app/"
+    "Shamelessly stolen from: https://shitshortysays.netlify.app/",
+    "Confessions of a future former gifted child"
 
 ];  
 
