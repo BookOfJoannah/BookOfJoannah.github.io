@@ -17,7 +17,7 @@ body {
   .quipformat{
     font-size: 24px;
     position: relative;
-    left:10%;
+    left:20%;
 
   }
 
@@ -145,6 +145,7 @@ body {
   
   position: relative;
   top: 0px;
+  left: -10%;
   
   background-image: url('Resources/bookopen.png');
   background-size: 875px;
