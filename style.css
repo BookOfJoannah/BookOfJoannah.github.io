@@ -67,8 +67,27 @@ body {
     color: lightblue;
   }
 
-
+.maingroup {
+  position: relative;
+  /* top: 600px; */
   
+  background-size: 700px;
+  margin: 0 auto;
+  font-size: 14px; 
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  color:black;
+
+  display: block;
+  
+  margin:0 auto;
+  max-width: 600px;
+  
+}
+
   .blockoftext {
     position: relative;
     /* top: 600px; */
